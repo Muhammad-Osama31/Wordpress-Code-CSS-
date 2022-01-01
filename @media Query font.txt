@@ -1,0 +1,19 @@
+
+@media screen and (min-width: 600px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {    //only for specific screens some screen not working then we will you like 786 not working and 1024 working
+  div.example {
+    font-size: 30px;
+  }
+
+
+<div class="example">Example DIV.</div>
+
+
+@media (max-width:1360px){   //for specific screens
+
+}

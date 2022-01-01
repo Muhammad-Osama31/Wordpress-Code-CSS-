@@ -1,0 +1,39 @@
+//search bar code to reverse the search option
+jQuery('div#srach-bar-shot').each(function() {
+        jQuery(this).insertAfter(jQuery(this).parent().find('.et_pb_menu_inner_container li#menu-item-270'));
+    });
+
+
+//search icon javascript for placeholder text replace
+jQuery(document).ready(function(){ 
+  jQuery('form').find("input[type=search]").each(function(ev)
+  {
+      if(!jQuery(this).val()) { 
+     $(this).attr("placeholder", "What're you looking for?");
+  }
+  });
+
+
+//csss
+div#srach-bar-shot {
+    width: 30%;
+    position: relative;
+    top: 6px;
+}
+.sanpop-modal {
+    background: #414141 !important;
+}
+
+.sanpop-search-box input[type="search"] {
+    color: #767575 !important;
+    background-color: #3a3a3a !important;
+      border-bottom: 1px solid #767675 !important;
+}
+form#searchform ::placeholder {
+    color: #767675 !important;
+}
+
+
+button.search-btn {
+    display: none !important;
+}

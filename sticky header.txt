@@ -1,0 +1,13 @@
+jQuery(document).ready(function( $ ){
+jQuery(function() {
+    var header = jQuery("#logo-sec");
+    jQuery(window).scroll(function() {
+        var scroll = jQuery(window).scrollTop();
+        if (scroll >= 60) {
+            header.attr('style','position:fixed;width:100%;top:0');
+        } else {
+            header.attr('style','');
+        }
+    });
+});
+}); 

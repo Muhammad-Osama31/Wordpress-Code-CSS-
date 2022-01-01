@@ -1,0 +1,46 @@
+<label> First name
+   [text text-199] </label>
+
+<label> Last name
+     [text text-466] </label> 
+
+<label> Email
+    [email* email-635]</label>
+
+<label> Number
+    [number* number-833]</label>
+
+<label> Company
+   [email email-289] </label>
+
+<label> Street Address
+   [text text-430] </label>
+
+<label> State
+    [number* number-375] </label>
+
+<label> City
+    [text text-28] </label>
+
+<label> Zip
+    [number* number-780] </label>
+
+<label> Business Website
+   [text text-473]  </label>
+
+<label> Product You’re Interested In
+[select menu-447 "One-Cup Pouches" "Travel Pack" "Whole Beans" "Not Sure Yet"]
+ </label>
+
+<label>Date of Event / Occasion
+[date date-17]
+</label>
+
+<label> Quantities
+[select menu-618 "250-499" "500-999" "1000-1499" " 1500++"]
+</label>
+
+<label> Please Describe Your Event / Occasion and Other Relevant Details
+ [text text-227] </label>
+
+[submit "Submit"]

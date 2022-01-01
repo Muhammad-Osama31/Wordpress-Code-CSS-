@@ -1,0 +1,201 @@
+/* Header css ul li*/
+#os_header .et_pb_menu__logo {
+    position: absolute;
+    margin-left: -15px;
+}
+
+ul#menu-header-menu li {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#os_header ul li a {
+    padding: 5px 0px;
+}
+
+#os_header ul li:last-child a {
+    background-color: #f0bd47;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+#os_header ul li:last-child {
+    padding-right: 0px;
+}
+/* menu color in mobile */
+ul#mobile_menu1 {
+    background-color: #ffff !important;
+    opacity: 1;
+    border-color: #f0bd47;
+}
+
+ul#mobile_menu1 li a {
+    color: black !important;
+}
+
+.et_pb_module .mobile_menu_bar:before {
+    color: #1e274a !important;
+}
+
+sup {
+    top: -16px;
+    bottom: .8em;
+}
+
+/* techonology stack session */
+ul#os_technology_stack li::marker {
+    color: #f0bd47;
+}
+/* The Right Place For You */
+h1#os_heading_stack {
+    font-size: 17px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #4f5b7d;
+      padding: 0px;
+}
+
+h2#os_h_right {
+    font-family: 'Montserrat';
+    font-size: 31px;
+    color: #000000;
+  padding-bottom: 23px;
+}
+
+#os_description .et_pb_blurb_description p {
+    margin-bottom: -11px;
+}
+
+p#os_pstk {
+      font-size: 12px;
+    padding-bottom: 19px;
+    padding-top: 5px;
+}
+
+/* Hover effects */
+div#os_column_ondemond:hover {
+      background: #fef8ed;
+}
+div#os_column_ondemond {
+    padding-bottom: 2px;
+}
+
+h2#os_reviews {
+    font-size: 17px;
+    font-family: 'Montserrat';
+    color: #121d3f !important;
+    font-weight: bold;
+      padding-bottom: 0px;
+    padding-top: 42px;
+}
+
+p#os_slider_paragrah {
+    font-size: 15px;
+    color: #5d6887;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+/* Footer */
+
+div#footer-roww ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div#footer-roww ul li {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+div#footer-roww ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+div#footer-roww #footerr-col2 ul li:last-child {
+    padding-right: 0px;
+}
+
+div#footer-roww #footerr-col3 ul li:last-child {
+    padding-right: 0px;
+}
+
+#footerr-col2 li.dott {
+    font-weight: 600;
+}
+
+#footerr-col3 li.dott {
+    font-weight: 600;
+}
+
+div#footer-roww #footerr-col3 ul {
+    justify-content: flex-end;
+}
+
+a#button_footer {
+     margin: 0%;
+    background-color: #F0BD46;
+    color: #1e274a;
+    padding: 2px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 5% !important;
+}
+
+ul#footer_acceptbutton li {
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 26px;
+}
+
+#three-clm-blurb .et_pb_blurb .et_pb_blurb_description {
+    min-height: 125px;
+}
+
+#os_header ul li:last-child a:hover {
+    background-color: #dae1f3;
+}
+
+
+/* Media Query  */
+@media only screen and (max-width: 1024px) and (min-width:769px) {
+p#os_paragraph_text {
+    width: 80%;
+}
+}
+
+@media (max-width: 800px)
+{
+  #three-clm-blurb .et_pb_column {
+    border: 0px !important;
+    border-bottom: 0px !IMPORTANT;
+    border-top: 0px !important;
+}
+
+#three-clm-blurb .et_pb_blurb {
+    border-bottom: 0px !important;
+    border-top: 0px !IMPORTANT;
+}
+  h2#os_h_right {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #000000;
+    padding-bottom: 23px;
+}
+}
+@media (max-width: 600px){
+sup {
+    top: -24px;
+    left: 1px;
+    bottom: 3.8em;
+}
+}
+@media only screen and (width: 320px){
+sup {
+    top: -24px;
+    left: 41px;
+    bottom: 3.8em;
+}
+}

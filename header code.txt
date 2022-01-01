@@ -1,0 +1,29 @@
+#os_header .et_pb_menu__logo {
+    position: absolute;
+    margin-left: -15px;
+}
+
+ul#menu-header-menu li {
+    padding-left: 28px;
+    padding-right: 22px;
+}
+
+#os_header ul li a {
+    padding: 5px 0px;
+}
+
+#os_header ul li:last-child a {
+    background-color: #f0bd47;
+    margin: auto;
+    padding: 11px 16px;
+}
+
+#os_header ul li:last-child {
+       padding-right: 109px;
+}
+
+
+last child active color
+#menu-kuju-coffee li:nth-of-type(4) a {
+    color: #6ac0db!important;
+}

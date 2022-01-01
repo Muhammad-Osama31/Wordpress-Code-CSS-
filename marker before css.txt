@@ -1,0 +1,14 @@
+ul#os_technology_stack {
+    list-style-type: none;
+}
+
+ul#os_technology_stack li:before {
+    content: "\2022";
+    color: #f0bd47;
+    font-size: 26px;
+    position: absolute;
+    font-weight: 900;
+    display: inline-block;
+    margin-left: -19px;
+    margin-top: -7px;
+}

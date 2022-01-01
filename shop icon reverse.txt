@@ -1,0 +1,54 @@
+<a href="https://techzo.co.uk/coffee/my-account/" class="my-acountt"><img id="img1" src="https://techzo.co.uk/coffee/wp-content/uploads/2021/10/user-01.svg"width="25" height="20" /></a>
+
+jQuery('#menu_right_icons .et_pb_menu__cart-button').each(function() {
+        jQuery(this).insertAfter(jQuery(this).parent().find('.et_pb_menu__search-button'));
+    });
+
+
+
+@media only screen and (width: 768px){
+#menu_right_icons .et_pb_menu__wrap {
+    position: absolute;
+    top: -55px;
+    left: 561px;
+}
+
+#menu_right_icons span.mobile_menu_bar {
+    display: none;
+}
+}
+
+@media only screen and (width: 600px){
+#menu_right_icons .et_pb_menu__wrap {
+    position: absolute;
+    top: -55px;
+    left: 391px;
+}
+}
+
+#menu_right_icons span.mobile_menu_bar {
+    display: none;
+}
+}
+
+@media screen and (min-width: 530px){
+ #os_section_2  .et_pb_row_3.et_pb_row {
+       max-width: 100%;
+}
+}
+
+@media only screen and (width: 425px) {
+#menu_right_icons .et_pb_menu__wrap {
+    position: absolute;
+    top: -56px;
+    left: 231px;
+}
+}
+
+@media only screen and (width: 375px) {
+#menu_right_icons .et_pb_menu__wrap {
+    position: absolute;
+    top: -56px;
+    left: 191px;
+}
+}

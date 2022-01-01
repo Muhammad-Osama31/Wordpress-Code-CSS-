@@ -1,0 +1,4 @@
+/* slider active code */
+#slider_wp .et-pb-arrow-next, .et-pb-arrow-prev {
+    opacity: 1;
+}

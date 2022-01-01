@@ -1,0 +1,20 @@
+
+
+<ul class="os_imgess">
+	<li><a href="#"> <img src="https://techzo.co.uk/coffee/wp-content/uploads/2021/11/instagram-01.svg"> </a></li>
+	<li><a href="#"> <img src="https://techzo.co.uk/coffee/wp-content/uploads/2021/11/facebook-01.svg"> </a></li>
+	<li><a href="#"> <img src="https://techzo.co.uk/coffee/wp-content/uploads/2021/11/twitter-01.svg"> </a></li>
+</ul>
+
+ul.os_imgess li {
+    list-style-type: none;
+    width: 15%;
+    margin-right: 10px;
+}
+
+ul.os_imgess {
+    padding-left: 0px;
+    display: flex;
+    /* flex-flow: row; */
+    /* width: 100%; */
+}

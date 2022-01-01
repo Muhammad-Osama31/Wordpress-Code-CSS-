@@ -1,0 +1,10 @@
+.et_pb_menu__cart-button:after {
+    content: "" !important;
+    background-image: url(https://techzo.co.uk/coffee/wp-content/uploads/2021/11/cart-01-1.svg);
+    background-size: contain;
+    background-position: center;
+    height: 28px;
+    width: 30px;
+    background-repeat: no-repeat;
+    color: #3f3f3f !important;
+}

@@ -1,0 +1,13 @@
+ul#mobile_menu1 {
+    background-color: #ffff !important;
+    opacity: 1;
+    border-color: #f0bd47;
+}
+
+ul#mobile_menu1 li a {
+    color: black !important;
+}
+
+.et_pb_module .mobile_menu_bar:before {
+    color: #1e274a !important;
+}
